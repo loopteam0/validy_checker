@@ -1,0 +1,7 @@
+{
+  "name": "val-checker",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
