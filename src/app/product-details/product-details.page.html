@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{name}}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeSlf()">
+        <ion-icon slot="end" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="action">
+    <div class="icon">
+      <ion-icon color="success" name="done-all"></ion-icon>
+    </div>
+    <div class="txtState">
+      <p>This Product is VALID</p>
+      <p>The Product will expire in: {{now}}</p>
+    </div>
+  </div>
+
+  <div class="history">
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Product Details</ion-label>
+      </ion-list-header>
+      <ion-item>
+        Product 1
+
+      </ion-item>
+      <ion-item>
+        Product 1
+
+      </ion-item>
+      <ion-item>
+        Product 1
+        <ion-icon slot="end" color="success" name="done-all"></ion-icon>
+
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
